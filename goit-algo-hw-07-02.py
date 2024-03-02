@@ -8,7 +8,6 @@ def find_min_value(root):
     if root is None:
         return None
 
-    # Йдемо у лівого сина, поки він існує
     while root.left is not None:
         root = root.left
 
